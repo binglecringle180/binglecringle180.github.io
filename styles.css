@@ -4,14 +4,14 @@ body {
       font-family: arial;
       font-size: 16px;
       text-align: center;
-    }
-    .txt {
+      }
+.txt {
       font-size: 22px;
-    }
-    img {
+      }
+img {
       border-radius: 8px;
       height: 250px;
     }
-    img:hover {
+img:hover {
       box-shadow: 0 0 10px 6px rgba(0, 127, 255, 0.5);
     }
