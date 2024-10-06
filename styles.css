@@ -2,16 +2,26 @@ body {
       background-color: #000000;
       color: #ffffff;
       font-family: arial;
-      font-size: 16px;
       text-align: center;
-      }
-.txt {
-      font-size: 22px;
-      }
+}
 img {
       border-radius: 8px;
       height: 250px;
-    }
+}
 img:hover {
       box-shadow: 0 0 10px 6px rgba(0, 127, 255, 0.5);
-    }
+}
+.container {
+      position: relative;
+}
+.topleft {
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translate(-50%, 0%);
+}
+div {
+      padding-bottom: 25px;
+      text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+      font-size: 20px;
+}
