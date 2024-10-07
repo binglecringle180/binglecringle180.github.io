@@ -1,13 +1,11 @@
 <html>
-  <title>Projects</title>
+  <title>Bingle's Projects</title>
   <style>
     @font-face {
       font-family: quicksand;
-      src: url();
+      src: url(Quicksand-VariableFont_wght.ttf);
     }
     body {
-      background-color: #000000;
-      color: #ffffff;
       font-family: quicksand;
       text-align: center;
     }
@@ -16,19 +14,23 @@
     }
     .topleft {
           position: absolute;
-          top: 8px;
+          top: 2px;
           left: 50%;
           transform: translate(-50%, 0%);
+          color: white;
     }
     div {
           padding-bottom: 25px;
           font-size: 25px;
           font-weight: 700;
-          -webkit-text-stroke: 1px black;
+    }
+    .topleft.dark {
+      color: black
     }
     img {
       border-radius: 8px;
-      height: 300px;
+      height: 350px;
+      background-color: black;
     } 
     img:hover {
           box-shadow: 0 0 10px 6px rgba(84, 134, 184, 0.5);
@@ -40,19 +42,20 @@
   </head>
   <body>
     <div class="container">
-      <a target="_blank" href="https://github.com/binglecringle180/mset-pico8/"><img src="https://camo.githubusercontent.com/e560b253c19390cad1d62c300830c1791d6c7c1f20de32ebcc14a5f6e7a9ee9f/68747470733a2f2f79656574796f757266696c65732e6c6f6c2f646f776e6c6f61642f39313132663939622d383132342d343934372d623539362d616362656635653865326462">
-      </a>
-      <div class="topleft">Mandelbrot set (PICO-8)</div>
-    </div>
-    <div class="container">
-      <div class="topleft">Mandelbrot set (TIC-80)</div>
-      <a target="_blank" href="https://github.com/binglecringle180/mset-tic80/"> <img src="https://camo.githubusercontent.com/7815b775524d2454dd7e0082a5f9be83ff4e27ec45389ba40ac0dfc5d831ba87/68747470733a2f2f79656574796f757266696c65732e6c6f6c2f646f776e6c6f61642f30623937303363302d343039362d346566312d393930342d623332313130626239343931">
-      </a>
-    </div>
-    <div class="container">
       <a target="_blank" href="https://github.com/binglecringle180/audiovisualizer/"> <img src="https://camo.githubusercontent.com/8d650524c7bc655377a23b653f5d16c24defa6b898340c31f61f6cfb86863d5f/68747470733a2f2f79656574796f757266696c65732e6c6f6c2f646f776e6c6f61642f37626137313061342d633764322d343764392d626264332d306462653037623739303266">
       </a>
       <div class="topleft">Audio Visualizer</p>
+    </div>
+    </div>
+    <div class="container">
+      <a target="_blank" href="https://github.com/binglecringle180/mset-pico8/"><img src="https://camo.githubusercontent.com/e560b253c19390cad1d62c300830c1791d6c7c1f20de32ebcc14a5f6e7a9ee9f/68747470733a2f2f79656574796f757266696c65732e6c6f6c2f646f776e6c6f61642f39313132663939622d383132342d343934372d623539362d616362656635653865326462">
+      </a>
+      <div class="topleft dark">Mandelbrot set (PICO-8)</div>
+    </div>
+    <div class="container">
+      <div class="topleft dark">Mandelbrot set (TIC-80)</div>
+      <a target="_blank" href="https://github.com/binglecringle180/mset-tic80/"> <img src="https://camo.githubusercontent.com/7815b775524d2454dd7e0082a5f9be83ff4e27ec45389ba40ac0dfc5d831ba87/68747470733a2f2f79656574796f757266696c65732e6c6f6c2f646f776e6c6f61642f30623937303363302d343039362d346566312d393930342d623332313130626239343931">
+      </a>
     </div>
   </body>
 </html>
