@@ -1,0 +1,38 @@
+@font-face {
+    font-family: quicksandttf;
+    src: url(Quicksand-VariableFont_wght.ttf);
+}
+body {
+    font-family: quicksandttf;
+    text-align: center;
+}
+.container {
+    position: relative;
+}
+.topleft {
+    position: absolute;
+    top: 2px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: white;
+}
+    div {
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.topleft.dark {
+    color: black
+}
+img {
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    border-radius: 8px;
+    height: 350px;
+    background-color: black;
+} 
+img:hover {
+    box-shadow: 0 0 5px 5px rgba(84, 134, 184, 0.5);
+}
